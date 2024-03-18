@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "rollup-plugin-generate-html-template": "^1.7.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.8.3",
+    "@rollup/plugin-html": "^1.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "eslint": "^8.57.0",
+    "rollup": "^4.13.0"
+  }
+}
