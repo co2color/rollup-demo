@@ -12,4 +12,12 @@ an easy rollup web'sdemo
 "build": "rollup -c"
 ```
 
-创建 rollup.config.js
+创建 rollup.config.js。跟 webpack 一样，都有输入(input)和输出(output).
+
+先来定义输入：创建 src/main.ts，创建/index.html。
+
+和 vue 或者 react 一样，里面定义一个根 dom，id 为#app。在 main.ts 中会挂载该 dom。
+
+main.ts 中获取 dom，并且操作 dom，就是 vue/react 的 spa 最简模型。
+
+另外就是 rollup 打包相关，既然用了 ts，当然要安装 ts 相关的包，
